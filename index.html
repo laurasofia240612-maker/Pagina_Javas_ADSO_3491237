@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Sofi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Sobre Mí</header>
+
+    <main>
+        <h1>Sofí Grajales</h1>
+
+        <p>Tengo 19 años, soy de Medellín - Antioquia y me gusta mucho conocer lugares nuevos y tener nuevas experiencias para recordar.</p>
+        <p>Soy una persona empática, extrovertida, servicial, respetuosa y responsable. No me gustan los problemas, las mentiras, la hipocresía, la mala actitud ni que las personas se sientan solas.</p>
+        <p>Mientras que pueda trato de darle el lado bueno a todo, pero cuando algo no me gusta mi carácter es algo complejo.</p>
+
+        <section>
+            <label for="numero">¿Cuál es el número favorito de Sofi?</label>
+            <br>
+            <input type="number" id="numero" name="numero" min="0" max="99">
+            <p id="mensaje" class="mensaje"></p>
+        </section>
+
+        <section>
+            <label for="pasiones">Elige una pasión:</label>
+            <br>
+            <select id="pasiones">
+    <option value="">Pasiones de Sofi</option>
+    <option value="lugares">Conocer lugares</option>
+    <option value="calle">Salir a la calle</option>
+    <option value="callar">Escuchar música</option>
+</select>
+<br>
+<img id="imagen" src="" alt="" width="200" hidden>
+        </section>
+
+        <button id="reiniciar">Reiniciar</button>
+    </main>
+
+    <footer>Sofí Grajales - ADSO - SENA</footer>
+
+    <script src="app.js"></script>
+</body>

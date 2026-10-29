@@ -1,0 +1,51 @@
+body {
+  background-color: #FDFD96;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #1F3FBF;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input, select, button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 8px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #1F3FBF;
+  border-radius: 6px;
+}
+
+input:focus, select:focus, button:focus {
+  outline: 3px solid #1F3FBF;
+  outline-offset: 2px;
+}
+
+button {
+  background-color: #1F3FBF;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#resumen {
+  white-space: pre-line;
+  font-weight: bold;
+  color: #1F3FBF;
+}
